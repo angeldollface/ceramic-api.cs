@@ -24,28 +24,34 @@ git clone https://github.com/angeldollface/ceramic-api.cs
 cd ceramic-api.cs
 ```
 
-- 3.) Build the project
+- 3.) Install the project's dependencies:
+
+```bash
+dotnet restore
+```
+
+- 4.) Build the project
 
 ```bash
 dotnet build
 ```
 
-- 4.) Run the application:
+- 5.) Run the application:
 
 ```bash
 dotnet run
 ```
 
-- 5.) Visit the address displayed in your console window and put an IMEI number after the root URL!
+- 6.) Visit the address displayed in your console window and put an IMEI number after the root URL!
 
 ## USAGE :hammer:
 
-This microservice offers a single route, `/your_imei`. `your_imei` represents an IMEI number you would like to check. The response is a JSON response of the following structure:
+This microservice offers a single route, `/your_imei`. `your_imei` represents an IMEI number you would like to check. The response could look something like this:
 
 ```JSON
 {
-    "number" : "the IMEI you submitted",
-    "result" : "either true or false"
+    "number":"353879234252633",
+    "result":true
 }
 ```
 
