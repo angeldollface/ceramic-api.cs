@@ -6,6 +6,7 @@
   <RootNamespace>ceramic_api.cs</RootNamespace>
   <ImplicitUsings>enable</ImplicitUsings>
   <Nullable>enable</Nullable>
+  <EnableDefaultItems>false</EnableDefaultItems>
  </PropertyGroup>
 
  <ItemGroup>
