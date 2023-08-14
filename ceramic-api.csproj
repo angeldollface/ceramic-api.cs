@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+ <PropertyGroup>
+  <OutputType>Exe</OutputType>
+  <TargetFramework>net7.0</TargetFramework>
+  <RootNamespace>ceramic_api.cs</RootNamespace>
+  <ImplicitUsings>enable</ImplicitUsings>
+  <Nullable>enable</Nullable>
+ </PropertyGroup>
+
+ <ItemGroup>
+  <Compile Include = "src/Program.cs"/>
+  <Compile Include = "src/lib/Startup.cs"/>
+  <Compile Include = "src/lib/Luhny.cs"/>
+  <Compile Include = "src/lib/AnalysisController.cs"/>
+  <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.1.*" />
+  <PackageReference Include="Microsoft.AspNetCore.Server.Kestrel" Version="1.1.*" />
+  <PackageReference Include="Microsoft.AspNetCore" Version="1.1.*" />
+ </ItemGroup>
+
+</Project>
