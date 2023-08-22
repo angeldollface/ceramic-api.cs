@@ -10,7 +10,7 @@ This project is a microservice to validate IMEI numbers of mobile devices. It of
 
 ## INSTALLATION :inbox_tray:
 
-Assuming you have the `.NET` SDK version 7 or later installed you can build and run this project on your own machine in the following way:
+Assuming you have the `.NET` SDK version 7 or later installed, you can build and run this project on your own machine in the following way:
 
 - 1.) Download the source code:
 
