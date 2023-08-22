@@ -1,7 +1,5 @@
-name: CERAMIC API CI
-
+name: CERAMIC-API.CS CI
 on: [push]
-
 jobs:
   build:
 
