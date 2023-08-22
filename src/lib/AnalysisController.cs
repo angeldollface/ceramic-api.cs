@@ -28,7 +28,7 @@ namespace CoreApp{
     // on the IMEI number.
     public class AnalysisController : Controller {
 
-        // Rhe route that takes the IMEI number
+        // The route that takes the IMEI number
         // as a route parameter and returns a processed
         // JSON object.
         [Route("{imei}")]
