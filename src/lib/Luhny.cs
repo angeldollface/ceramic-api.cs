@@ -20,7 +20,7 @@ namespace LuhnyLib{
         }
 
         // Splits a string into the characters that make it up
-        // and returns these characters a list of strings.
+        // and returns these characters as a list of strings.
         public static List<string> cleanSplit(
             string subject
         ) {
@@ -32,14 +32,14 @@ namespace LuhnyLib{
         }
 
         // Checks whether the supplied string
-        // is a long integer.
+        // is a long integer or not.
         public static bool isInt(string subject){
             bool result = long.TryParse(subject, out _);
             return result;
         }
 
         // Checks whether the supplied number sequence string
-        // is a number sequence.
+        // is indeed a number sequence.
         public static bool isNumberSequence(string subject){
             bool result = true;
             List<string> splitString = cleanSplit(subject);
@@ -52,7 +52,7 @@ namespace LuhnyLib{
             return result;
         }
 
-        // Gets every second number ina list of long integers.
+        // Gets every second number in a list of long integers.
         public static List<long> getImportantNumbers(string subject){
             List<long> result = new List<long>();
             List<string> charList = cleanSplit(subject);
